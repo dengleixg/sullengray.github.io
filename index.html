@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>你的名字｜个人主页</title>
+  <meta name="description" content="你的简介一句话：研究方向/职业定位/擅长领域。" />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true"></div>
+        <div>
+          <div class="name">你的名字</div>
+          <div class="tagline">一句话定位：研究方向 / 职业方向 / 关键词</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#projects">项目</a>
+        <a href="#pubs">论文</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <h1>你好，我是你的名字。</h1>
+      <p class="lead">
+        用 2–3 句说明你是谁、做什么、擅长什么。比如：我专注于 XXX（领域/方向），近期在做 XXX（项目/课题），对 XXX（合作/机会）开放。
+      </p>
+
+      <div class="cta">
+        <a class="btn" href="#projects">查看项目</a>
+        <a class="btn ghost" href="#contact">联系我</a>
+      </div>
+
+      <div class="meta">
+        <span>📍 Toronto, CA（可改）</span>
+        <span>•</span>
+        <span>Open to: Internship / Collaboration（可改）</span>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-title">
+        <h2>关于</h2>
+        <p>简洁、可验证、偏事实：背景、研究/工作重点、方法栈、兴趣方向。</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>简介</h3>
+          <p>
+            我目前在（学校/公司）从事（方向）。主要关注（研究主题/工程问题），常用（方法/工具）。
+            目标是（你希望解决什么问题/你对什么机会开放）。
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>技能栈</h3>
+          <ul class="list">
+            <li><span class="k">语言</span><span class="v">Python, C++, MATLAB</span></li>
+            <li><span class="k">方向</span><span class="v">Imaging, Optimization, Reconstruction</span></li>
+            <li><span class="k">工具</span><span class="v">CUDA, ITK, Docker, Git</span></li>
+            <li><span class="k">其他</span><span class="v">写作 / 复现实验 / 工程化</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-title">
+        <h2>项目</h2>
+        <p>建议 3–6 个：每个项目一句话价值 + 2–3 条要点 + 链接。</p>
+      </div>
+
+      <div class="grid three">
+        <article class="card">
+          <h3>Project A</h3>
+          <p>一句话说明：这个项目解决什么问题，给出什么结果。</p>
+          <ul class="bullets">
+            <li>贡献点 1（方法/性能/指标）</li>
+            <li>贡献点 2（工程/可复现/数据）</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/你的用户名" target="_blank" rel="noreferrer">Code</a>
+            <a href="#" target="_blank" rel="noreferrer">Demo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Project B</h3>
+          <p>一句话说明：你做了什么，为什么重要。</p>
+          <ul class="bullets">
+            <li>亮点 1</li>
+            <li>亮点 2</li>
+          </ul>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Paper</a>
+            <a href="#" target="_blank" rel="noreferrer">Slides</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Project C</h3>
+          <p>一句话说明：面向用户/面向科研/面向工程均可。</p>
+          <ul class="bullets">
+            <li>亮点 1</li>
+            <li>亮点 2</li>
+          </ul>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Details</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="pubs" class="section">
+      <div class="section-title">
+        <h2>论文 / 报告（可选）</h2>
+        <p>没有也没关系，可放 preprint、技术报告、海报、开源贡献。</p>
+      </div>
+
+      <div class="card">
+        <ol class="pubs">
+          <li>
+            <span class="pub-title">Paper Title One</span>
+            <span class="pub-meta">Author A, <strong>你</strong>, Author C • Venue / Year</span>
+            <span class="pub-links">
+              <a href="#" target="_blank" rel="noreferrer">PDF</a>
+              <a href="#" target="_blank" rel="noreferrer">Code</a>
+            </span>
+          </li>
+          <li>
+            <span class="pub-title">Paper Title Two</span>
+            <span class="pub-meta"><strong>你</strong> • Tech Report • 2025</span>
+            <span class="pub-links">
+              <a href="#" target="_blank" rel="noreferrer">PDF</a>
+            </span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-title">
+        <h2>联系</h2>
+        <p>建议放邮箱 + GitHub + LinkedIn/Google Scholar。</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>邮箱</h3>
+          <p>
+            <a href="mailto:yourname@email.com">yourname@email.com</a>
+          </p>
+          <p class="hint">提示：把邮箱写成“可点击 mailto”即可。</p>
+        </div>
+
+        <div class="card">
+          <h3>链接</h3>
+          <ul class="links-list">
+            <li><a href="https://github.com/你的用户名" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="#" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="#" target="_blank" rel="noreferrer">Google Scholar</a></li>
+            <li><a href="#" target="_blank" rel="noreferrer">CV (PDF)</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>© <span id="y"></span> 你的名字</span>
+        <span class="sep">•</span>
+        <span>Built with HTML/CSS • Monochrome Theme</span>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
